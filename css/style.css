@@ -134,7 +134,7 @@ header
 
 .menu-icon
 {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -151,4 +151,19 @@ header
     height: 2px;
     width: 23px;
     transition: 0.3s;
+}
+
+.move .line1
+{
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.move .line2
+{
+    opacity: 0;
+}
+
+.move .line3
+{
+    transform: rotate(45deg) translate(-5px, -5px);
 }
